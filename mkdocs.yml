@@ -3,4 +3,5 @@ site_url: https://rahulsingh.io/
 nav:
   - Home: index.md
   - Master Data Management: about.md
-#theme: readthedocs
+theme:
+  name: material
