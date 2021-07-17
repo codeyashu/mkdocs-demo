@@ -1,10 +1,11 @@
-name: build and deploy mkdocs to github pages
+name: Build and deploy mkdocs to github pages
 on:
   push:
     branches:
       - master
 jobs:
   deploy:
+    name: Deploy Mkdocs 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
